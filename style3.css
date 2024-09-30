@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide3 {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url(./bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide3 .container {
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+    margin-top: 100px;
+    padding-top: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+ .slide3 .slide3-navbar {
+    margin: 0;
+    position: absolute;
+    margin-top: 45px;
+
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.car-img {
+    width: 60%;
+    height: 400px;
+    -webkit-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+
+}
+
+.car-img img {
+    -webkit-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    transform: skewX(20deg);
+    position: absolute;
+    top: -97px;
+    left: -95px;
+}
+
+.text-section {
+    /* margin-left: 50px; */
+    flex: 1.5;
+    padding-left: 150px;
+}
+
+/* h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-stretch: condensed;
+  font-family: sans-serif;
+  letter-spacing: 2.5px;
+  display: inline-block;
+  transform: scaleX(0.7);
+  text-transform: uppercase;
+} */
+
+.heading-main {
+    color: #fff;
+    margin-top: -5px;
+    font-size: 3rem;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-family: sans-serif;
+    letter-spacing: 2.5px;
+    line-height: 1;
+    display: inline-block;
+    transform: scaleX(0.7);
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: -50px;
+}
+
+.slide3 .left {
+    padding: 0;
+    height: 90px;
+    border-right: 2px solid grey;
+    margin-left: -150px;
+
+}
+
+.slide3 .right {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide3 .heading-sub {
+    margin: 0;
+    width: 100%;
+}
+
+.slide3 .appearance {
+    color: #ffc800;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5rem;
+}
+
+.slide3 .exterior {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 5px;
+    transform: scaleY(1.8);
+    letter-spacing: 1.2px;
+    border-bottom: #4b4b4b solid 2px;
+    width: fit-content;
+    text-align: left;
+}
+
+.slide3 .description {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    width: 60%;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.slide3 .actions {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: -50px;
+}
+
+.slide3 .view-link {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-bottom: 3px;
+}
+
+.slide3 .view-link span {
+    width: 250px;
+    margin-left: 5px;
+    translate: scaleX(5);
+    color: #ffc800;
+
+}
+.long-arrow{
+    vertical-align: middle;
+}
+.next-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 15px;
+ 
+}
+.next-sec{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    right: 0px;
+}
+
+.next-button span {
+    margin-left: 5px;
+}
+.next-arrow{
+    margin-right: -30px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #464646;
+    padding: 5px;
+    border-radius: 50%;
+
+}
